@@ -18,7 +18,7 @@ const AdminLogin = ({ onLogin }) => {
 
     try {
       const res = await axios.post(
-        "https://fixitnoww-production.up.railway.app/api/auth/adminSignin", // backend route
+        "https://nagar-seva-backend.onrender.com", // backend route
         formData,
         {
           headers: { "Content-Type": "application/json" },
