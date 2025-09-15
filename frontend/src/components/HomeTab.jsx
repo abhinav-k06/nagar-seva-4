@@ -19,7 +19,7 @@ export default function HomeTab({ setIsFormOpen }) {
       try {
         const results = await Promise.all(
           Array.from({ length: 4 }).map(() =>
-            fetch("https://fixitnoww-production.up.railway.app/api/quotes/random").then((res) =>
+            fetch("https://nagar-seva-backend.onrender.com").then((res) =>
               res.json()
             )
           )
