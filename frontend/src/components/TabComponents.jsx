@@ -52,7 +52,7 @@ export function ProfileTab() {
 
     async function loadProfile() {
       try {
-        const res = await fetch('https://fixitnoww-production.up.railway.app/api/me', {
+        const res = await fetch('https://nagar-seva-backend.onrender.com', {
           method: 'GET',
           credentials: 'include', // send cookies if using cookie-based auth
           signal: ac.signal,
