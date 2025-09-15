@@ -23,7 +23,7 @@ const UserRegister = () => {
   setErrors([]);
 
   try {
-    const res = await axios.post("https://fixitnoww-production.up.railway.app/api/auth/userSignup", formData, {
+    const res = await axios.post("https://nagar-seva-backend.onrender.com/api/auth/userSignup", formData, {
       headers: { "Content-Type": "application/json" },
     });
 
