@@ -2,7 +2,7 @@
 import cors from "cors";
 
 const allowedOrigins = [
-  "http://localhost:5000",       // dev
+  "http://localhost:5173",       // dev
   "https://nagar-seva-4-frontend.onrender.com" // deployed frontend
 ];
 
