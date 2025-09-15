@@ -1,4 +1,18 @@
 // server.js
+import cors from "cors";
+
+const allowedOrigins = [
+  "http://localhost:5000",       // dev
+  "https://nagar-seva-4-frontend.onrender.com" // deployed frontend
+];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true
+  })
+);
+
 import dotenv from "dotenv";
 import express from "express";
 import { fileURLToPath } from "url";
