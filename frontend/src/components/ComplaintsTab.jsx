@@ -105,7 +105,7 @@ export default function ComplaintsTab() {
         formData.append("lng", longitude);
 
         const xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://fixitnoww-production.up.railway.app/api/classify");
+        xhr.open("POST", "https://nagar-seva-backend.onrender.com");
 
         xhr.upload.onprogress = (event) => {
           if (event.lengthComputable) {
