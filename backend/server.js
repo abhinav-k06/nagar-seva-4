@@ -1,10 +1,5 @@
 // server.js
-import cors from "cors";
 
-const allowedOrigins = [
-  "http://localhost:5173",       // dev
-  "https://nagar-seva-4-frontend.onrender.com" // deployed frontend
-];
 
 app.use(
   cors({
