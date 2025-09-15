@@ -20,7 +20,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     const fetchComplaints = async () => {
       try {
-        const res = await fetch("https://fixitnoww-production.up.railway.app/api/admin/complaints", {
+        const res = await fetch("https://nagar-seva-backend.onrender.com", {
           credentials: "include",
         });
         const data = await res.json();
